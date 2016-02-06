@@ -6,8 +6,8 @@ ENV GROOVY_VERSION 2.4.5
 WORKDIR /usr/lib
 RUN wget http://mirror.nbtelecom.com.br/apache/groovy/${GROOVY_VERSION}-incubating/distribution/apache-groovy-sdk-${GROOVY_VERSION}.zip
 RUN unzip "apache-groovy-sdk-${GROOVY_VERSION}.zip"
-RUN ln -s "/usr/lib/gradle-${GROOVY_VERSION}/bin/groovy" /usr/bin/groovy
-RUN rm "gradle-${GROOVY_VERSION}-bin.zip"
+RUN ln -s "/usr/lib/groovy-${GROOVY_VERSION}/bin/groovy" /usr/bin/groovy
+RUN rm "apache-groovy-sdk-${GROOVY_VERSION}.zip"
 RUN mkdir -p /usr/src/app
 
 # Set Appropriate Environmental Variables
