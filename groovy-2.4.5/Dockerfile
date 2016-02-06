@@ -1,4 +1,4 @@
-FROM upspack/docker-java:java-1.7
+FROM upspack/java:1.7
 MAINTAINER Jeyson Maia <jeyson@upspeck.io>
 
 # Groovy
