@@ -1,4 +1,4 @@
-FROM upspeck/java:1.7
+FROM upspeck/java:1.8
 MAINTAINER Jeyson Maia <jeyson@upspeck.io>
 
 # Groovy
